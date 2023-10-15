@@ -245,7 +245,6 @@ describe('processor', function () {
       expect($('#abs-style').attr('style')).to.be(
         "background-image: url(//bg.jpg); background: url('//bg.jpg')"
       );
-      
       expect($('#abs-style-data').attr('style')).to.be(
         "background-image: url(data:image/svg+xml;base64,foo); background: url('data:image/svg+xml;base64,foo')"
       );
